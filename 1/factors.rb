@@ -8,3 +8,4 @@ def factor_sum(max, x=3, y=5)
   end
   factors.inject 0, :+
 end
+
