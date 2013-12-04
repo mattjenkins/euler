@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby 
+
 def largestprime(n)
   # calculate primes
   def isprime(x)
