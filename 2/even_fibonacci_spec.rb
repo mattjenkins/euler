@@ -14,8 +14,8 @@ describe "Calculate the Fib sum for various values" do
 end
 
 describe "Calculate the Fib sum for Project Euler #2" do
-  it "when X=1000" do
-    result = fibsum(1000)
+  it "when X=4000000" do
+    result = fibsum(4000000)
     puts "The answer is " + result.to_s 
   end
   
