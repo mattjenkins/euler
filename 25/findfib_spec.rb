@@ -4,11 +4,11 @@ require "findfib"
 describe "find the Nth value in the fibonacchi sequence" do
   it "N = 3" do
     result = findfib(3)
-    result.should == 2
-  end
-  it "N = 12" do
-    result = findfib(12)
     result.should == 144
+  end
+  it "N = 4" do
+    result = findfib(4)
+    result.should == 1597
   end
 end
 
